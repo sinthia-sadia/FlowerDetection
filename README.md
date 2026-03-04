@@ -6,21 +6,21 @@ An AI-powered Android application that performs real-time object detection using
 
 This project demonstrates practical implementation of Machine Learning model deployment in mobile applications, focusing on real-time inference and offline performance.
 
-🚀 Key Highlights
+## Key Highlights
 
-📷 Real-time object detection using device camera
+  Real-time object detection using device camera
 
-🧠 Custom-trained ML model integration (.tflite)
+ Custom-trained ML model integration (.tflite)
 
-⚡ On-device inference (No internet required)
+ On-device inference (No internet required)
 
-📱 Android 7.0+ compatibility
+ Android 7.0+ compatibility
 
-🎨 Fully customizable UI via XML layouts
+ Fully customizable UI via XML layouts
 
-🔄 Easy model replacement through assets folder
+ Easy model replacement through assets folder
 
-🛠 Tech Stack
+## Tech Stack
 
 Android Studio
 
@@ -34,7 +34,7 @@ Teachable Machine
 
 Camera API / CameraX
 
-📂 Architecture Overview
+## Architecture Overview
 app/<br>
  ├── assets/<br>
  │    ├── model.tflite<br>
@@ -47,7 +47,7 @@ app/<br>
 
 The application loads the TensorFlow Lite model from the assets directory and performs real-time image classification on camera frames.
 
-To personalize the detection system:
+## To personalize the detection system:
 
 Train a new model using Teachable Machine
 
@@ -57,7 +57,7 @@ Replace model.tflite and labels.txt in assets
 
 Rebuild and run
 
-🧠 What I Learned
+## What I Learned
 
 End-to-end ML workflow (Data → Training → Export → Deployment)
 
@@ -69,10 +69,7 @@ Optimizing inference for mobile performance
 
 Structuring scalable Android projects
 
-🎯 Purpose
-
-This project was built for educational and portfolio purposes to explore the intersection of:
+## Purpose
+This project was built for academic project of the course of Artificial Intelligence:
 
 Mobile Development × Machine Learning × Real-Time AI
-
-It reflects my growing interest in ML deployment, intelligent applications, and Android-based AI solutions.
