@@ -35,14 +35,14 @@ Teachable Machine
 Camera API / CameraX
 
 📂 Architecture Overview
-app/
- ├── assets/
- │    ├── model.tflite
- │    └── labels.txt
- ├── java/
- │    └── ObjectDetectionActivity.java
- ├── res/layout/
- │    └── activity_main.xml
+app/<br>
+ ├── assets/<br>
+ │    ├── model.tflite<br>
+ │    └── labels.txt<br>
+ ├── java/<br>
+ │    └── ObjectDetectionActivity.java<br>
+ ├── res/layout/<br>
+ │    └── activity_main.xml<br>
 
 
 The application loads the TensorFlow Lite model from the assets directory and performs real-time image classification on camera frames.
