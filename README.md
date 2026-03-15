@@ -46,30 +46,49 @@ app/<br>
 
 
 The application loads the TensorFlow Lite model from the assets directory and performs real-time image classification on camera frames.
+## How It Works
 
-## To personalize the detection system:
+Launch the app and grant camera permission
+
+Camera captures real-time frames
+
+TensorFlow Lite model performs on-device inference
+
+Detected objects are displayed with labels and confidence scores
+
+Models can be swapped easily for different detection tasks
+## Quick Start / Setup
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/FlowerDetection.git
+
+
+Open the project in Android Studio
+
+Place your custom model.tflite and labels.txt in the assets/ folder
+
+Sync Gradle to install dependencies
+
+Build and run the app on an emulator or physical device
+
+## Customizing the Detection System
 
 Train a new model using Teachable Machine
 
-Export as .tflite
+Export the model as .tflite
 
-Replace model.tflite and labels.txt in assets
+Replace model.tflite and labels.txt in the assets/ folder
 
-Rebuild and run
+Rebuild and run the app
+## Future Improvements
 
-## What I Learned
+Multi-class object detection with higher accuracy
 
-End-to-end ML workflow (Data → Training → Export → Deployment)
+Export detection results as CSV or JSON
 
-Integrating TensorFlow Lite into Android
+Support for multiple camera streams (front & back)
 
-Handling real-time camera frame processing
+Dark mode and theme customization
 
-Optimizing inference for mobile performance
-
-Structuring scalable Android projects
-
-## Purpose
-This project was built for academic project of the course of Artificial Intelligence:
-
-Mobile Development × Machine Learning × Real-Time AI
+Integration with cloud for model updates
